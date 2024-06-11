@@ -5,7 +5,7 @@
 
 Biobank contains up to five (Instance 0-4) diet histories per person, which has been collected via the validated Oxford WebQ Questionnaire.
 It contains both macro- and micronutrients of consumed foods. Foods are also grouped
-More information can be found [under](https://biobank.ndph.ox.ac.uk/ukb/ukb/docs/DietWebQ.pdf)
+More information can be found [here](https://biobank.ndph.ox.ac.uk/ukb/ukb/docs/DietWebQ.pdf)
 
 
 To view the variables in the dataset, these can be explored on the rapic access platform [DNA NEXUS](https://ukbiobank.dnanexus.com/landing) , please log on there. 
