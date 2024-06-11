@@ -1,2 +1,26 @@
 * How to import data from RAP to CSV file
 
+STATA on Jupyter lab
+
+run table exporter
+
+generate a txt file of field names
+do not forget to specify entity (participant)
+
+then save it in the general folder, NOT the tabe exporter file!
+
+Then run jupyter ntebook stata
+then run 
+
+import delimited /mnt/project/Field_names_trial.csv
+
+then
+save Field_names_trial
+will save file as dta file
+
+to upload dta file to project in order to save it
+!dx upload Field_names_trial.dta
+
+to use it
+use Field_names_trial.dta, clear
+
