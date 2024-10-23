@@ -1,0 +1,22 @@
+Using "First occurrences" variables from UK Biobank
+
+These variables have the ICD code as variable title, but contain a date where there is the condition present, i.e. when it was first diagnosed
+
+1. Creating a Categorical Variable from Date Data
+To create a new variable that assigns "0" when the original variable is missing and "1" when it contains a date, you can use the generate command along with the missing() function. Here's the code to accomplish this:
+
+generate new_variable = 0 if missing(original_variable)
+replace new_variable = 1 if !missing(original_variable)
+
+Breaking this down:
+The first line creates a new variable and sets it to 0 for all observations where the original variable is missing.
+The second line replaces the value with 1 for all observations where the original variable is not missing (i.e., contains a date).
+If wanting to add value labels to make the output more readable, use the following additional commands:
+
+label define date_label 0 "no" 1 "yes"
+label values new_variable date_label
+
+This will label the values 0 as "no" and 1 as "yes" in your new variable.
+
+    2. Creating a numerical variable from categorical variabe above to sum conditions into binary or scale data
+
