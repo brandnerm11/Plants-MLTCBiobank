@@ -18,4 +18,4 @@ Preparation steps, needed are:
 9. In runtime options do not need to specify anything, unless maybe spending limit or priority, but cost should be minimal on normal priority, cick "LAUNCH ANALYSIS"!
 10. The job is now launched and progress can be seen in the MONITOR section of the RAP, also email is sent upon completion
 
-![Screenshot of how Table Exporter can be filled out to yield desired csv]()
+![Screenshot of how Table Exporter can be filled out to yield desired csv](General Biobank Information/03 Table exporter example picture.JPG)
