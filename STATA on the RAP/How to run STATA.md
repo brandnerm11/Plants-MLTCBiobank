@@ -1,7 +1,7 @@
 #How to run STATA on Biobank RAP
 
 
-Information for this can be found under 
+Information for this can be found under the [DNA NEXUS documentation webpage](https://documentation.dnanexus.com/user/jupyter-notebooks/stata-in-dxjupyterlab)
 
 To run Stata on the UK Biobank Research Analysis Platform, you can follow these steps:
 
