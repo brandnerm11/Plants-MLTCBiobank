@@ -5,10 +5,10 @@ Information for this can be found under
 
 To run Stata on the UK Biobank Research Analysis Platform, you can follow these steps:
 
-1. Ensure you have a valid Stata license and have uploaded your license details to the project.
+1. Ensure you have a valid Stata license and have uploaded your license details to the project. The format of this should be
 
-   The format of this should be
-   ```
+  
+```
 {
   "license": {
     "serialNumber": "123456789012",
@@ -18,7 +18,8 @@ To run Stata on the UK Biobank Research Analysis Platform, you can follow these 
     "organization": "My Company"
   }
 }
-   ```
+```
+   
    I uploaded this as .json file onto the project under the upload button. (Written with Windows notepad, saved as.json)
    
 Launch the DXJupyterLab app within your UK Biobank project:
