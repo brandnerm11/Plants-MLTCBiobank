@@ -16,8 +16,13 @@ To get there
 2. Click appxxxx.dataset (Type/Class Dataset Record)
 3. Click Data Preview  (this now shows list of participant IDs)
 4. Click "add column" to add variables to configure the cohort
-5. Click "Diet by 24hr recall"
+5. Click "online follow up" then "Diet by 24hr recall"
 6. Various variables can now be selected, if you click add to preview the variable is added to the cohort by participant ID
 7. cohorts and specific variables can be configured and saved as a new cohort
 
-   
+NOTE: after 30 columns of variables added this won't be displayed anymore. Furthermore the limit of columns to add to each saved cohort is 200 (including the eid participant ID column). It might therefore be necessary to split cohorts with many variables.
+
+## exporting saved cohorts into data files (csv)
+
+see other readme about creating csv data files using table exporter tool on the RAP 
+csv files are needed to access the data with jupyter notebook R, python, Stata etc. 
