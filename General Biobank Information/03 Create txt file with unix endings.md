@@ -1,6 +1,7 @@
 # Create a txt file with unix endings
 
 To create a text file with Unix line endings (LF instead of CRLF) from an Excel column, you'll need to use VBA. Here's a step-by-step approach:
+Make sure you have all desired variables that match the selected cohort in one column, each variable name (e.g. p12321_i0) per one line/field
 Open the Visual Basic Editor in Excel (press Alt + F11).
 Insert a new module (Insert > Module).
 Paste the following VBA code into the module:
