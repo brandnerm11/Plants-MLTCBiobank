@@ -24,3 +24,8 @@ to upload dta file to project in order to save it
 to use it
 use Field_names_trial.dta, clear
 
+when saving it
+!dx upload Field_names_trial.dta
+
+when using it after a new jupyter notebook is started
+use /mnt/project/inflaimPlantsICDcodesdates.dta
