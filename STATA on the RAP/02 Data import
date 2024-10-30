@@ -25,6 +25,7 @@ to use it
 use Field_names_trial.dta, clear
 
 when saving it
+save Field_names_trial.dta
 !dx upload Field_names_trial.dta
 
 when using it after a new jupyter notebook is started
