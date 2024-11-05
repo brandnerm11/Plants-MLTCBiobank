@@ -29,3 +29,5 @@ c) Select "DXJupyterLab with Python, R, Stata, ML"
 d) Add your Stata license file as an input
 e) Select "Stata" from the Features dropdown
 f) Click "Start Analysis"
+
+When you click Monitor in the RAP Toolbar it can be seen once the Jupyter Lab has switched from "waiting" to running and there is a worker URL that can be clicked to open the JupyterLab. NOTE: when clicked shortly after it has switched to running the error message 502 Bad Gateway comes up. It often needs 5 more minutres to launch and then the URL can be clicked without issues and the Jupyter notebook opens
